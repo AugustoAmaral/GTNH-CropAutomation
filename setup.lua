@@ -3,7 +3,7 @@ local args = {...}
 local branch
 local repo
 local scripts = {'action.lua', 'database.lua', 'gps.lua', 'scanner.lua', 'config.lua', 'autoStat.lua', 'autoTier.lua',
-                 'autoSpread.lua', 'uninstall.lua'}
+                 'autoSpread.lua', 'autoMutate.lua', 'uninstall.lua'}
 
 -- BRANCH
 if #args >= 1 then
