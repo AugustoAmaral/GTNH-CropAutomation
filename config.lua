@@ -12,6 +12,8 @@ local config = {
     keepDrops = true,
     -- Keep crops that are not the target crop during autoSpread and autoStat
     keepMutations = false,
+    -- Keep crops duplicated crops during autoMutate
+    keepDuplicated = true,
     -- Stat-up crops during autoTier (Very Slow)
     statWhileTiering = false,
 
@@ -59,7 +61,7 @@ local config = {
     storageStopSlot = -3
 }
 
-config.workingFarmArea = config.workingFarmSize^2
-config.storageFarmArea = config.storageFarmSize^2
+config.workingFarmArea = config.workingFarmSize ^ 2
+config.storageFarmArea = config.storageFarmSize ^ 2
 
 return config
